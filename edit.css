@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(lightgreen,lightblue,lightyellow);
+}
+.about {
+    height: 40vw;
+    background-color: white;
+    width: 80%;
+    border-radius: 4vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0) ,0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    line-height: 6vw;
+    font-size: 5vw;
+    color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+ 
+
+.switchOver {
+    text-align: center;
+    margin-top: 4vw;
+    padding:5px;
+    margin: 10px;
+}
+
+input {
+    vertical-align:top;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+p{
+    font-size: 2vw;
+    padding: 1vw;
+    color: green;
+    text-align: center;
+}
+
+
+
+  
+  
