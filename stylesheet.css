@@ -5,14 +5,20 @@ body {
     background-image: linear-gradient(lightyellow,lightgreen,lightblue);
 }
 .A {
-    height: 1vw;
+    height: max-content;
     width: 100%;
     background-color: grey;
-    
-    
+}
+
+.B{
+    height: max-content;
+    width: 100%;
+    background-color: grey;
+
 }
 .topnav {
     height: 5vw;
+    width: 80%;
     /* background-color: grey; */
 }
 .topnav a {
@@ -25,7 +31,7 @@ body {
     width: 15%;
     /* border: .3vw solid black; */
 
-    font-size: 2.4vw;
+    font-size: 1.98vw;
   }
   
   /* Change the color of links on hover */
@@ -67,13 +73,68 @@ body {
   }
  .topImage {
      width: 10%;
-     height: 9vw;
+     height: auto;
      position: absolute;
      right: 5vw;
      top: 1.5vw;
-     border-radius: 2vw;
+     border-radius: 50%;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-     border: .2vw solid grey;
+     border: 0.4vw solid transparent;
+     background:linear-gradient(60deg,white,red 50%,yellow 100%);
+     
+    }
+  
+  
+    h4{
+        text-align: center;
     }
 
- 
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 3.5vh;
+        padding: 50px;
+
+        
+    }
+   
+
+    .watchbtn {
+        text-decoration: none;
+          display: flex;
+          justify-content: center;;
+          
+    }
+     button{
+        background-color: crimson;
+        height: 10vh;
+        width: 30%;
+         margin-bottom: 50px;
+         font-size: 5vh;
+         font-family: cursive ;
+         font-style: oblique;
+         text-decoration: none;
+         
+    }
+
+    @media (max-width:1024px) {
+    button{
+        width:80%;
+        font-size: larger;
+    }
+
+    footer{
+        display: list-item;
+        text-align: center;
+        justify-content: center;
+    }
+
+    hr{
+        width: 60%;
+    }
+    }
+   
+
+
+    
