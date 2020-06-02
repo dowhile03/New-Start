@@ -128,9 +128,10 @@ body {
         display: list-item;
         text-align: center;
         justify-content: center;
+    
     }
 
-    hr{
+    .hr1{
         width: 60%;
     }
     }

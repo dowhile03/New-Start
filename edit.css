@@ -37,12 +37,96 @@ input {
     margin-right: auto;
     display: inline-block;
 }
-p{
+.p1{
     font-size: 2vw;
     padding: 1vw;
     color: green;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.topImage {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    right: 5vw;
+    top: 1.5vw;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border: 0.4vw solid transparent;
+    background:linear-gradient(60deg,white,red 50%,yellow 100%);
+    
+   }
+
+   .topnav {
+    height: 5vw;
+    width: 80%;
+    /* background-color: grey; */
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: .8vw;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+    /* border: .3vw solid black; */
+
+    font-size: 1.98vw;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    height: 5vw;
+  }
+
+  .A {
+    height: max-content;
+    width: 100%;
+    background-color: grey;
+}
+
+.B{
+    height: max-content;
+    width: 100%;
+    background-color: grey;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3.5vh;
+    padding: 50px;
+
+    
+}
+
+@media (max-width:1024px) {
+
+    .about{
+        height: max-content;
+    }
+    .p1{
+        font-size: 8vw;
+        text-align: left;
+    }
+   
+
+    footer{
+        display: list-item;
+        text-align: center;
+        justify-content: center;
+    }
+
+    hr{
+        width: 60%;
+    }
+    }
 
 
 
