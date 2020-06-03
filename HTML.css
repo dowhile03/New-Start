@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(lightgreen,lightblue);
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #540075;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+}
+
+header h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.A {
+  height: max-content;
+  width: 100%;
+  background-color: grey;
+}
+
+.B{
+  height: max-content;
+  width: 100%;
+  background-color: grey;
+
+}
+.topnav {
+  height: 5vw;
+  width: 80%;
+  /* background-color: grey; */
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: .8vw;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 15%;
+  /* border: .3vw solid black; */
+
+  font-size: 1.98vw;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  height: 5vw;
+}
+
+.topImage {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 5vw;
+  top: 1.5vw;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  border: 0.4vw solid transparent;
+  background:linear-gradient(60deg,white,red 50%,yellow 100%);
+  
+ }
+
+
+ h4{
+     text-align: center;
+ }
+
+
+
+
+
+.product-item {
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 50rem;
+  max-width: 90%;
+  background-color: white;
+  padding: 2vw;
+}
+
+.product-item iframe {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.product-item__content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.product-item h2,
+.product-item h3 {
+  margin: 0 0 1rem 0;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3.5vh;
+  padding: 50px;
+
+  
+}
+
+
+
+@media (max-width:1024px) {
+  button{
+      width:80%;
+      font-size: larger;
+  }
+
+  footer{
+      display: list-item;
+      text-align: center;
+      justify-content: center;
+  
+  }
+
+  .hr1{
+      width: 60%;
+  }
+  }
+
+
