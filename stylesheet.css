@@ -186,7 +186,7 @@ body {
     width: 100%;
   }
   .foot4 {
-    height: 20em;
+    height: 15em;
    background-color: black;
    float: left;
    width: 100%;
@@ -233,6 +233,8 @@ body {
   .copyright{
 padding-top: 10vw;
     color: aliceblue;
+    background-color: black;
+    
     
   }
 
